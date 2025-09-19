@@ -1,0 +1,189 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: "Inter", sans-serif ;
+    color: #303030;
+}
+
+.header {
+    background: #2965f1;
+    width: 1440px;
+    height: 70px;
+    padding: 23px 0;
+}
+
+.logo-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+}
+
+.main {
+    padding: 60px 0;
+    min-height: 1vh;
+    background: #fafaff;
+    width: 1440px;
+    height: 1024px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.text {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+p.text {
+    font-weight: 400;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.img {
+    max-width: 715px;
+}
+
+.section {
+    fill: #fff;
+    padding: 100px 0;
+    margin-left: 5px;
+}
+
+.select {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 150px;
+    height: 36px;
+}
+
+h2.text {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+select {
+    background: url("./assets/images/Arrow-down.svg") no-repeat right 15px bottom 50%;
+    appearance: none;
+    padding-left: 12px;
+}
+
+.option {
+     font-weight: 400;
+     font-size: 16px;
+
+}
+
+.list {
+    list-style-image: url("./assets/images/Vector.svg");
+    padding-left: 20px;
+    padding-top: 25px;
+}
+
+.list-item {
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.num-list {
+    width: 670px;
+    height: 57px;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 25px 20px;
+}
+
+.my-skill {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.label {
+    width: 475px;
+    height: 19px;
+    background: #fff;
+}
+
+.input {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    border-radius: 5px;
+    width: 330px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0);
+    font-size: 16px;
+    color: rgba(48, 48, 48, 0.2);
+    padding-left: 12px;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    width: 125px;
+    height: 36px;
+    background: #2965f1;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;
+}
+
+.line {
+    border: 1px solid rgba(48, 48, 48, 0.3);
+    width: 1440px;
+    height: 0;
+    margin: 60px 0px 60px 0px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 300px;
+    height: 196px;
+}
+
+.sub-title {
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.table-title {
+    font-weight: 400;
+    font-size: 14px;
+    padding-left: 15px;
+}
+
+tr {
+    border: 1px solid #95A1BB;
+    width: 240px;
+
+}
+
+.footer {
+    width: 1440px;
+    height: 70px;
+    background: rgba(163, 167, 255, 0.3);
+    padding: 26px 0;
+
+}
+
+.link {
+    width: 78px;
+    height: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #2965f1;
+    text-decoration: none;
+}
+
+
+
+
+
+
