@@ -16,7 +16,7 @@ html, body {
     padding: 23px 0;
 }
 
-.logo-title {
+.span {
     font-weight: 700;
     font-size: 20px;
     color: rgb(255, 255, 255);
@@ -25,7 +25,7 @@ html, body {
 .main {
     padding: 60px 0px;
     min-height: 1vh;
-    background: #fafaff;
+    background-color: #fafaff;
     width: 1440px;
     height: 1024px;
 }
@@ -33,7 +33,7 @@ html, body {
 .title {
     font-weight: 700;
     font-size: 48px;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .text {
@@ -68,6 +68,7 @@ p.text {
 h2.text {
     font-weight: 700;
     font-size: 24px;
+    margin-bottom: 25px;
 }
 
 select {
@@ -98,7 +99,7 @@ select {
     height: 57px;
     font-weight: 400;
     font-size: 16px;
-    padding: 25px 20px;
+    padding: 0px 20px;
 }
 
 .my-skill {
@@ -129,7 +130,7 @@ select {
     border-radius: 5px;
     width: 125px;
     height: 36px;
-    background: #2965f1;
+    background-color: #2965f1;
     font-weight: 700;
     font-size: 14px;
     color: rgb(255, 255, 255);
@@ -178,8 +179,8 @@ tr {
 }
 
 .link {
-    width: 78px;
-    height: 17px;
+    /*width: 78px;*/
+    /*height: 17px;*/
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
