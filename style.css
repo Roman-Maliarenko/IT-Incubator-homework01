@@ -19,11 +19,11 @@ html, body {
 .logo-title {
     font-weight: 700;
     font-size: 20px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .main {
-    padding: 60px 0;
+    padding: 60px 0px;
     min-height: 1vh;
     background: #fafaff;
     width: 1440px;
@@ -33,11 +33,12 @@ html, body {
 .title {
     font-weight: 700;
     font-size: 48px;
+    margin-bottom: 25px;
 }
 
 .text {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 p.text {
@@ -46,17 +47,18 @@ p.text {
     padding-top: 20px;
 }
 
-.img {
+.image {
     max-width: 715px;
 }
 
 .section {
     fill: #fff;
-    padding: 100px 0;
+    padding: 100px 0px;
     margin-left: 5px;
 }
 
 .select {
+    background-repeat: no-repeat;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
     width: 150px;
@@ -82,8 +84,7 @@ select {
 
 .list {
     list-style-image: url("./assets/images/Vector.svg");
-    padding-left: 20px;
-    padding-top: 25px;
+    padding: 0px 20px;
 }
 
 .list-item {
@@ -109,6 +110,7 @@ select {
     width: 475px;
     height: 19px;
     background: #fff;
+    font-size: 16px;
 }
 
 .input {
@@ -130,33 +132,35 @@ select {
     background: #2965f1;
     font-weight: 700;
     font-size: 14px;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 
 .line {
     border: 1px solid rgba(48, 48, 48, 0.3);
     width: 1440px;
     height: 0;
-    margin: 60px 0px 60px 0px;
+    margin: 60px 0px;
 }
 
 .table {
     border-collapse: collapse;
     width: 300px;
     height: 196px;
+    font-size: 14px;
 }
 
 .sub-title {
     font-weight: 700;
     font-size: 14px;
     text-align: center;
+    padding: 12px 15px;
 
 }
 
 .table-title {
     font-weight: 400;
     font-size: 14px;
-    padding-left: 15px;
+    padding-left: 12px 15px;
 }
 
 tr {
@@ -179,7 +183,7 @@ tr {
     font-weight: 400;
     font-size: 14px;
     color: #2965f1;
-    text-decoration: none;
+    text-decoration-line: none;
 }
 
 
