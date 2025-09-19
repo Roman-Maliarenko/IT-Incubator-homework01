@@ -11,23 +11,23 @@ html, body {
 
 .header {
     background: #2965f1;
-    width: 1440px;
-    height: 70px;
+    /*width: 1440px;*/
+    /*height: 70px;*/
     padding: 23px 0;
 }
 
 .span {
     font-weight: 700;
     font-size: 20px;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 
-.main {
+section.main {
     padding: 60px 0px;
     min-height: 1vh;
-    background-color: #fafaff;
-    width: 1440px;
-    height: 1024px;
+    background-color: #FAFAFF;
+    /*width: 1440px;*/
+    /*height: 1024px;*/
 }
 
 .title {
@@ -35,7 +35,6 @@ html, body {
     font-size: 48px;
     margin-bottom: 20px;
 }
-
 .text {
     font-weight: 700;
     font-size: 18px;
@@ -138,8 +137,8 @@ select {
 
 .line {
     border: 1px solid rgba(48, 48, 48, 0.3);
-    width: 1440px;
-    height: 0;
+    /*width: 1440px;*/
+    /*height: 0;*/
     margin: 60px 0px;
 }
 
@@ -158,7 +157,7 @@ select {
 
 }
 
-.table-title {
+.table.title {
     font-weight: 400;
     font-size: 14px;
     padding-left: 12px 15px;
@@ -171,8 +170,8 @@ tr {
 }
 
 .footer {
-    width: 1440px;
-    height: 70px;
+    /*width: 1440px;*/
+    /*height: 70px;*/
     background: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
 
