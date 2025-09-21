@@ -22,7 +22,7 @@ html, body {
     color: #fff;
 }
 
-section.main {
+.main {
     padding: 60px 0px;
     min-height: 1vh;
     background-color: #FAFAFF;
@@ -160,7 +160,7 @@ select {
 .table.title {
     font-weight: 400;
     font-size: 14px;
-    padding-left: 12px 15px;
+    padding: 12px 15px;
 }
 
 tr {
