@@ -38,6 +38,7 @@ html, body {
 .main-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
     padding: 0 150px;
 }
@@ -98,7 +99,7 @@ h2.text {
 
 .ul-list-wrapper> ul{
    display: flex;
-    flex-direction: column;
+   flex-direction: column;
 }
 
 .list-wrapper> ul {
@@ -128,7 +129,7 @@ h2.text {
 
 .container {
     padding-top: 79px;
-    /*width: 475px;*/
+    max-width: 1140px;
     /*height: 305px;*/
 }
 
@@ -272,6 +273,7 @@ tr {
 .footer-wrapper {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .footer-wrapper:hover {
