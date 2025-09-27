@@ -35,7 +35,7 @@ html, body {
     background-color: #FAFAFF;
 }
 
-.main-wrapper {
+.wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -77,6 +77,8 @@ p.text {
 }
 
 .info-wrapper {
+    display: flex;
+    flex-direction: column;
     max-width: 1440;
     max-height: 1139;
     margin: 0 150px;
@@ -258,6 +260,9 @@ tr {
 }
 
 .footer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
     background: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
 }
@@ -269,11 +274,10 @@ tr {
     text-decoration-line: none;
 }
 
-.footer-wrapper {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-}
+/*.footer-wrapper {*/
+/*    display: flex;*/
+/*    text-align: center;*/
+/*}*/
 
 .footer-wrapper:hover {
     text-decoration: underline;
