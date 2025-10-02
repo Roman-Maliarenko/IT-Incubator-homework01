@@ -37,7 +37,7 @@ html, body {
     background-color: #FAFAFF;
 }
 
-.wrapper {
+.main-wrapper {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -287,15 +287,26 @@ tr {
 }
 
 @media screen and (min-width: 375px) {
-       .title {
-           font-size: 36px;
-           padding-top: 40px;
-       }
+
+    .section-main {
+        padding: 30px 0px 60px;
+        gap: 40px;
+    }
+
+    .title {
+        font-size: 36px;
+        padding-top: 40px;
+    }
+
+    .section,
+    .info-wrapper {
+        gap: 50px;
+    }
 }
 
 @media screen and (max-width: 768px) {
 
-    .wrapper {
+    .main-wrapper {
         display: flex;
         flex-direction: column-reverse;
     }
@@ -308,7 +319,7 @@ tr {
     .ol-wrapper {
         padding-top: 60px;
     }
-    .wrapper,
+    .main-wrapper,
     .info-wrapper,
     .section {
         padding-left: 20px;
