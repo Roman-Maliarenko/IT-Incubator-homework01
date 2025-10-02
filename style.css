@@ -290,6 +290,9 @@ tr {
 
     .section-main {
         padding: 30px 0px 60px;
+    }
+
+    .main-wrapper {
         gap: 40px;
     }
 
@@ -298,7 +301,7 @@ tr {
         padding-top: 40px;
     }
 
-    .section,
+    .wrapper,
     .info-wrapper {
         gap: 50px;
     }
@@ -314,16 +317,27 @@ tr {
     .text-wrapper {
         display: flex;
         flex-direction: column;
+        max-width: 560px;
     }
 
     .ol-wrapper {
         padding-top: 60px;
     }
+
+    .section-main {
+        padding: 100px;
+    }
+
+    .wrapper {
+        padding: 60px 0px;
+    }
+
     .main-wrapper,
     .info-wrapper,
     .section {
         padding-left: 20px;
         padding-right: 20px;
+        gap: 60p;
     }
 
     .image {
