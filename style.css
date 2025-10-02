@@ -8,6 +8,7 @@ html, body {
     font-family: "Inter", sans-serif ;
     color: #303030;
     overflow-x: hidden;
+    min-width: 375px;
 }
 
 .header {
@@ -27,7 +28,7 @@ html, body {
     color: #fff;
 }
 
-.main {
+.section-main {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -41,8 +42,8 @@ html, body {
     flex-direction: row;
     align-items: center;
     padding: 0 150px;
-    /*!*если что вернуть gap: 60px;*!
-     проблемнный падинг*/
+    gap: 60px;
+     /*проблемнный падинг*/
 }
 
 .main-text {
@@ -74,7 +75,7 @@ p.text {
 }
 
 .section {
-    padding: 100px 0px;
+    padding: 60px 0px;
     /*проблемнный падинг*/
     margin-left: 5px;
     width: 100%;
@@ -83,6 +84,7 @@ p.text {
 .info-wrapper {
     width: 100%;
     display: flex;
+    gap: 50px;
     flex-direction: column;
     padding-left: 150px;
     padding-right: 150px;
@@ -134,7 +136,7 @@ h2.text {
 }
 
 .container {
-    padding-top: 79px;
+    padding-top: 0px 20px ;
     /*max-width: 1140px;*/
     width: 100%;
 }
@@ -149,7 +151,7 @@ h2.text {
     gap: 16px;
 }
 
-.button-wrapper {
+.form-wrapper {
     display: flex;
     flex-direction: row;
     gap: 10px;
