@@ -283,7 +283,7 @@ tr {
 
 @media screen and (min-width: 375px) {
 
-    .section-main {
+    section.section-main {
         padding: 30px 0px 60px;
     }
 
@@ -297,11 +297,10 @@ tr {
         padding-top: 40px;
     }
 
-    .wrapper,
-    .info-wrapper {
+    .wrapper  {
         /*убрать дисплей если что не так */
-        /*display: flex;*/
-        /*gap: 50px;*/
+        display: flex;
+        gap: 50px;
     }
 
 }
@@ -316,9 +315,11 @@ tr {
     .main-wrapper {
         display: flex;
         flex-direction: column-reverse;
+        /*убрать гап при неправильном расположении*/
+        gap: 60px;
     }
-
-    .text-wrapper {
+    /*text-wrapper вернуть при ошибке */
+    .main-text {
         display: flex;
         flex-direction: column;
         max-width: 560px;
@@ -340,7 +341,8 @@ tr {
         display: flex;
         padding-left: 20px;
         padding-right: 20px;
-        gap: 60p;
+        /*удалить гап */
+        gap: 60px;
     }
 
     .image {
