@@ -137,7 +137,6 @@ h2.text {
 
 .container {
     padding-top: 0px 20px ;
-    /*max-width: 1140px;*/
     width: 100%;
 }
 
@@ -276,11 +275,6 @@ tr {
     text-decoration-line: none;
 }
 
-/*.footer-wrapper {*/
-/*    display: flex;*/
-/*    text-align: center;*/
-/*}*/
-
 .footer-wrapper:hover {
     text-decoration: underline;
     transition: 0.2s;
@@ -288,7 +282,7 @@ tr {
 
 @media screen and (min-width: 375px) {
 
-    .section-main {
+    section.section-main {
         padding: 30px 0px 60px;
     }
 
@@ -314,12 +308,12 @@ tr {
         flex-direction: column-reverse;
     }
 
+
     .text-wrapper {
         display: flex;
         flex-direction: column;
         max-width: 560px;
     }
-
     .ol-wrapper {
         padding-top: 60px;
     }
@@ -330,6 +324,7 @@ tr {
 
     .wrapper {
         padding: 60px 0px;
+        gap: 60px;
     }
 
     .main-wrapper,
